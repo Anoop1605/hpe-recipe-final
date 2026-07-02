@@ -15,7 +15,7 @@ pipeline {
         CHART_DIR       = 'helm/recipe-detection-chart'
         HELM_CMD        = 'helm'
         KUBE_NAMESPACE  = "${params.CLUSTER}"
-        API_URL         = 'http://localhost:8081/api'
+        API_URL         = 'http://host.docker.internal:8081/api'
     }
 
     stages {
