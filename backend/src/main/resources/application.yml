@@ -6,6 +6,8 @@ server:
 spring:
   application:
     name: recipe-detection-api
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
 
 management:
   endpoints:
