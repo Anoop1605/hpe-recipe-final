@@ -52,3 +52,7 @@ SETUP.md
 # Local agent/tooling state
 .codex/
 .agents/
+
+# Local properties & configurations containing secrets
+**/application-local.yml
+**/application-local.properties
